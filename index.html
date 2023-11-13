@@ -1,0 +1,146 @@
+<!-- Задача: создать всплывающее диалоговое окно 
+        с произвольным текстом, например, “Привет, Мир!” 
+        с помощью JavaScript. -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert ("Привет, мир!")
+    </script>
+    <h>
+        Test page
+    </h>
+   
+</body>
+</html> -->
+
+<!-- Задача: вычислить результат 158+2
+и вывести значение выражения
+в диалоговое окно. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Всем привет"
+    </p>
+    <script>
+        alert(`result ${ 158 + 2 }`);
+        let number = parseInt(prompt('Введите число'));
+        alert(number+2);
+    </script>
+</body>
+</html> -->
+
+<!-- Задача: передать строковый параметр в диалоговое окно.
+Например, вывести “Привет, Алевтина!”,
+где имя - это передаваемый параметр. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Всем привет!
+    </p>
+    <script>
+        let name = "Алевтина";
+        alert(`Привет, ${ name } !`);
+    </script>
+    
+</body>
+</html> -->
+
+<!-- Задача: вызвать диалоговое окно с заголовком “Как вас зовут?”
+и подсказкой в поле ввода “Имя”.
+А затем вывести имя, которое ввели в поле ввода. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Всем привет!
+    </h1>
+    <script>
+        let name = prompt(`Как вас зовут?`, "имя");
+        alert(` Привет, ${name}!`)
+
+    </script>
+</body>
+</html> -->
+
+<!-- Задача: написать функцию выводящую в диалоговом окне текст и переменную.
+Например, “Привет, Алевтина”.
+Где имя “Алевтина” это внешняя переменная. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Всем привет!
+    </h1>
+    <script>
+        function showName(name) {
+            alert(` Привет, ${name}!`);
+        }
+        let myName = prompt(`Как вас зовут?`);
+        showName(myName);
+    </script>
+</body>
+</html> -->
+
+<!-- 
+Задача: вывести на экран в диалоговом окне текст
+с сообщением: “Вы уверены?” и кнопками «ОК» , «Отмена».
+При нажатии на кнопку “ОК” вывести в диалоговом окне текст
+с сообщением “Мы рады, что Вы уверены!”.
+При нажатии на кнопку “Отмена” вывести в диалоговом окне текст
+с сообщением “Жаль, что Вы не уверены…”. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Всем привет!
+    </h1>
+    <script>
+        let result = confirm ('Вы уверены?');
+        if (result) {
+            alert(`Мы рады, что Вы уверены!`)
+        }
+        else{
+            alert(`Жаль, что Вы не уверены…`)
+        }
+    </script>
+</body>
+</html> -->
+
