@@ -1,1 +1,19 @@
 
+-- create
+CREATE TABLE STUDENTS (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  adress TEXT NOT NULL
+);
+
+
+-- insert
+INSERT INTO STUDENTS VALUES (0001, 'Иванов', 36, 'г. Брест ул. Мошенского 50');
+INSERT INTO STUDENTS VALUES (0002, 'Сидоров', 18, 'г. Брест ул. Сикорского, 87');
+INSERT INTO STUDENTS VALUES (0003, 'Петров', 18, 'г. Брест ул. Советская 12');
+INSERT INTO STUDENTS VALUES (0004, 'Семенов', 32, 'г. Брест ул. Орловская 45-8');
+
+
+-- fetch 
+SELECT * FROM STUDENTS WHERE AGE >= 18;
