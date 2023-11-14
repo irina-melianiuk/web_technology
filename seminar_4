@@ -17,3 +17,4 @@ INSERT INTO STUDENTS VALUES (0004, 'Семенов', 32, 'г. Брест ул. �
 
 -- fetch 
 SELECT * FROM STUDENTS WHERE AGE >= 18;
+
